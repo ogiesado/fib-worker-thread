@@ -28,7 +28,7 @@ const clearError = () => {
 
 input.addEventListener("input", clearError);
 
-const getFactorial = () => {
+const getFibonacci = () => {
   if (!/^[1-9][0-9]*/.test(input.value)) {
     showError("Enter a valid number");
     return;
@@ -69,4 +69,4 @@ const getFactorial = () => {
   };
 };
 
-startButton.addEventListener("click", getFactorial);
+startButton.addEventListener("click", getFibonacci);
