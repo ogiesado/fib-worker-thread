@@ -1,2 +1,2 @@
 # fib-worker-thread
-Created with CodeSandbox
+Using a worker thread to process fibonacci numbers
